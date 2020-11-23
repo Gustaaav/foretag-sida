@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+}
+
+header {
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(32, 139, 95);
+  color: rgb(5, 12, 14);
+  font-family: "Lobster", cursive;
+  background-image: url
+    "https://media.istockphoto.com/vectors/engine-sign-multi-color-style-icon-simple-thin-line-outline-vector-of-vector-id1202393820?k=6&m=1202393820&s=170667a&w=0&h=_hSbzMwJJ00Rf-PTKIyxUapPS29f5OwbGEg5U_xDjCA=";
+}
+
+main {
+  background-color: rgb(41, 158, 133);
+}
+
+body.index {
+  background-color: rgb(32, 139, 95);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.foretagssida2nd {
+  text-align: center;
+  background-color: rgb(32, 139, 95);
+  font-family: "Lobster", cursive;
+}
+
+.foretagssida2nd p {
+  font-family: "Lobster", cursive;
+}
+
+.foretagssida3rd {
+  text-align: center;
+  background-color: rgb(32, 139, 95);
+  font-family: "Lobster", cursive;
+}
+
+.foretagssidaomoss {
+  text-align: center;
+  background-color: rgb(32, 139, 95);
+  font-family: "Lobster", cursive;
+}
+
+.wrapper a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper a:hover {
+  font-size: 28px;
+  text-decoration: darkgreen;
+}
+
+.wrapper {
+  margin: 25px;
+}
+
+.img-engine {
+  width: 800px;
+  height: 800px;
+  background-image: url();
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+#holder {
+  height: auto;
+  width: 250px;
+  background-color: rgb(92, 194, 155);
+  float: left;
+}
+
+#holder p {
+  border-left: 3px solid #333;
+  border-right: 3px solid #333;
+  padding: 10px 15px;
+  margin: 0;
+}
+
+#top {
+  width: 248px;
+  height: 10px;
+  border: 3px solid #333;
+  border-radius: 12px;
+  background: #333;
+}
+
+#top h3 {
+  margin: 0;
+  line-height: 30px;
+  padding: 0px 10px;
+  border-radius: 12px;
+  font-family: "Lobster", cursive;
+}
+
+#bottom {
+  width: 248px;
+  height: 10px;
+  border-top-width: 3px;
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+  border-top-style: none;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-top-color: #333;
+  border-bottom-color: #333;
+  border-right-color: #333;
+  border-left-color: #333;
+  border: 3px solid #333;
+  border-radius: 12px;
+  background-color: #333;
+}
+
+#holder2 {
+  height: auto;
+  width: 250px;
+  background-color: rgb(92, 194, 155);
+  float: left;
+}
+
+#holder2 p {
+  border-left: 3px solid #333;
+  border-right: 3px solid #333;
+  padding: 10px 15px;
+  margin: 0;
+}
+
+#top2 {
+  width: 248px;
+  height: 10px;
+  border: 3px solid #333;
+  border-radius: 12px;
+  background: #333;
+}
+
+#top h3 {
+  margin: 0;
+  line-height: 30px;
+  padding: 0px 10px;
+  border-radius: 12px;
+  font-family: "Lobster", cursive;
+}
+
+#bottom2 {
+  width: 248px;
+  height: 10px;
+  border-top-width: 3px;
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+  border-top-style: none;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-top-color: #333;
+  border-bottom-color: #333;
+  border-right-color: #333;
+  border-left-color: #333;
+  border: 3px solid #333;
+  border-radius: 12px;
+  background-color: #333;
+}
+
+#holder3 {
+  height: auto;
+  width: 250px;
+  background-color: rgb(92, 194, 155);
+  float: left;
+}
+
+#holder3 p {
+  border-left: 3px solid #333;
+  border-right: 3px solid #333;
+  padding: 10px 15px;
+  margin: 0;
+}
+
+#top3 {
+  width: 248px;
+  height: 10px;
+  border: 3px solid #333;
+  background: #333;
+}
+
+#top h3 {
+  margin: 0;
+  line-height: 30px;
+  padding: 0px 10px;
+  border-radius: 12px;
+  font-family: "Lobster", cursive;
+}
+
+#bottom3 {
+  width: 248px;
+  height: 10px;
+  border-top-width: 3px;
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+  border-top-style: none;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-top-color: #333;
+  border-bottom-color: #333;
+  border-right-color: #333;
+  border-left-color: #333;
+  border: 3px solid #333;
+  border-radius: 12px;
+  background-color: #333;
+}
+
+.flex-frame {
+  display: flex;
+}
+
+.info-box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.info-box {
+  border-radius: 5px;
+  width: 250px;
+}
+
+.info-box img {
+  display: block;
+  width: 100%;
+}
+
+footer {
+  border: 3px rgb(75, 112, 77) solid;
+  font-family: "Lobster", cursive;
+  background-color: rgb(20, 168, 106);
+}
